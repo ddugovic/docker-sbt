@@ -22,5 +22,5 @@ env:
   - VERSION=2.11.8
 
 script:
-  - docker build -t abigail/sbt:local "$VERSION"
-  - ./test abigail/sbt:local
+  - docker build -t ddugovic/sbt:local "$VERSION"
+  - ./test ddugovic/sbt:local
